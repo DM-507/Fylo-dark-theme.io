@@ -1,0 +1,417 @@
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    width: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 120px;
+    margin: 10px 10px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    width: 100%;
+}
+
+.hero-img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.hero-title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.hero-txt{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.email {
+    position: relative;
+    left: 15px;
+    right: 10px;
+    width: 350px;
+    height: 50px;
+    justify-content: center;
+    font-size: large;
+    font-weight: normal;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+input[type="email"]::placeholder{
+    padding-left: 20px;
+}
+
+.btn {
+    position: relative;
+    left: 15px;
+    right: 10px;                  
+    width: 360px;
+    height: 50px;
+    background-color: rgb(65, 65, 218);
+    color: white;
+    font-size: large;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.curve {
+   position: relative;
+   bottom: -5px; 
+   width: 100%;
+}
+
+.section {
+    background-color: #f8f8fe;
+    height: 67rem;
+}
+
+.sec-img{
+    width: 100%;
+}
+
+.sec-title {
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sec-txt {
+    margin: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.em{
+    width: 100%;
+    margin: 50px 15px;
+}
+
+.note {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(94, 192, 94);
+}
+
+.size {
+    position: relative;
+    top: 4px;
+    width: 20px;
+}
+
+.line {
+    width: 180px;
+    background-color: green;
+    position: relative;
+    top: -15px;
+}
+
+.card {
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    padding: 15px;
+}
+
+.user {
+    display: flex;
+}
+
+.person {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.quote {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 15px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.role {
+    position: relative;
+    top: -10px;
+}
+
+.card {
+    margin-bottom: 70px;
+}
+
+.navy-section {
+    position: relative;
+    top: -15px;
+    padding: 20px;
+    background-color: rgb(89, 89, 151);
+}
+
+.start {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.navy-txt {
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 15px;
+}
+
+.tp {
+    font-size: medium;
+    margin: 10px 15px;
+    width: 80%;
+}
+
+.navy-form {
+    width: 100%;
+}
+
+.footer {
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    background-color: rgb(18, 18, 56);
+}
+
+.logoo {
+    margin-top: 30px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
+}
+
+.footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.call {
+    margin-right: 10px;
+}
+
+.msg {
+    margin-right: 10px;
+}
+
+.mail {
+    margin-bottom: 40px;
+}
+
+.my {
+    margin-bottom: 40px;
+}
+
+.footer-txt {
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+
+.social {
+    width: 70%;
+    justify-content: center;
+    padding: auto 20px;
+    margin: auto;
+}
+
+.social img {
+    width: 20%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(139deg) brightness(103%) contrast(101%);
+}
+
+@media (min-width: 768px) {
+    .logo {
+        margin: 10px 10px;
+        width: 150px;
+    }
+
+    li a {
+        font-size: 20px;
+    }
+
+    .nav-links li {
+        padding: 0px 15px;
+    }
+
+    .hero-section {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 100px;
+    }
+
+    .hero-section img {
+        width: 40%;
+        margin-right: 70px;
+    }
+
+    .hero-content {
+        display: block;
+        position: relative;
+        top: 80px;
+        margin-left: 50px;
+    }
+
+    .hero-title {
+        text-align: left;
+        font-size: 45px;
+    }
+
+    .hero-txt {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .pad {
+        position: relative;
+        top: -0.5px;
+        width: 30%;
+        height: 54px;
+    }
+
+    .section {
+        height: 47rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .sec-content {
+        margin-left: 50px;
+        display: block;
+    }
+
+    .sec-img {
+        position: relative;
+        top: 100px;
+        width: 40%;
+        height: 50%;
+        margin: 0px 30px;
+    }
+
+    .section h2 {
+        text-align: left;
+        font-size: 45px;
+        font-weight: 2000;
+        margin-left: 20px;
+    }
+
+    .sec-txt {
+        width: 80%;
+        margin: 15px 20px;
+        font-size: 20px;
+    }
+
+    .em {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .card {
+        position: relative;
+        left: -10px;
+        width: 50%;
+    }
+
+    .navy-section {
+        display: flex;
+    }
+
+    .form-group input {
+        width: 80%;
+    }
+
+    .py {
+        width: 40%;
+    }
+
+    .navy-content {
+        position: relative;
+        top: 10px;
+        bottom: 20px;
+        margin: auto 50px;
+    }
+
+    .start {
+        font-size: 40px;
+    }
+
+    .navy-txt {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        position: relative;
+        top: 40px;
+    }
+
+    .footer {
+        display: flex;
+    }
+
+    .it {
+        width: 100%;
+        margin: 20px 30px 50px;
+    }
+
+    .open {
+        width: 100%;
+        margin: 100px auto 15px;
+    }
+
+    .social {
+        width: 100%;
+        position: relative;
+        top: -20px;
+    }
+
+    .footer-txt {
+        font-size: 18px;
+    }
+}
